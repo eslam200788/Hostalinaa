@@ -1,0 +1,672 @@
+body {
+    position: relative;
+}
+
+.seperator {
+   border:1px solid #666
+}
+
+.list {
+    list-style: none;
+    padding:0;
+    margin:0
+}
+
+.container {
+    position:relative
+}
+
+.color {
+    color: #79B519
+}
+
+/* end frame work */
+
+/* start nav bar */
+
+.navbar-fixed-top{
+    border-bottom: 2px solid #79B519!important
+}
+
+.arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #79B519 #79B519 transparent #79B519;
+    border-width: 50px 25px 10px 25px;
+    z-index: 2;
+    right: 4%;
+}
+
+.arrow p {
+    color: #EEE;
+    position: absolute;
+    top: -40px;
+    right: -16px;
+    font-size: 18px;
+}
+
+/* end nav bar */
+
+/* start header */ 
+
+.header {
+    background-image: url("../images/manage-incoming-mail.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height:600px;
+    position: relative
+}
+
+.header .overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:rgba(71, 80, 87, .4);
+    width:100%;
+    height:100%
+}
+.header .sale {
+    background-color: #EEE;
+    position: absolute;
+    left: 58%;
+    top: 93%;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 8px;
+    height: 80px;
+    color: #666
+}
+
+.header .sale p span {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.header .sale-date {
+    background-color: #79B519;
+    position: absolute;
+    left: 64%;
+    top: 105%;;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    color: #EEE;
+}
+
+.header .sale-date p span {
+    font-weight: bold;
+    font-size: 18px
+}
+
+.header .content {
+    margin-top: 30%;
+}
+
+.header .content h2,
+.header .content h1 {
+    margin:0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EEE
+}
+
+.header .content h2 {
+    font-weight: normal
+}
+
+.header .content h1 {
+    padding-bottom: 30px
+}
+
+.header .content p {
+    color: #EEE;
+    line-height: 1.4;
+    font-size:17px;
+    padding-bottom: 45px
+}
+
+.header .content button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #79b519;
+    border: 0;
+    color: #EEE;
+}
+/* end header */
+
+/* start choose bar */
+
+.choose-bar {
+    background-color: #79b519;
+    position: relative;
+    height:170px;
+}
+
+.choose-bar .mo {
+    margin-top:55px
+}
+
+.choose-bar span {
+    display: inline-block;
+    border-right: 2px solid #CCC;
+    padding: 0 10px;
+    color: #EEE;
+    font-size: 17px;
+    
+}
+
+.choose-bar .prop {
+    margin-bottom: 15px
+}
+.choose-bar .prop span:first-line{
+    font-weight: bold;
+    font-size: 18px
+}
+
+.choose-bar .prop span:last-of-type {
+    border: 0
+}
+
+.choose-bar .form .search {
+    position: absolute;
+    top: 13%;
+    right: 22%;}
+
+.choose-bar .form .search input {
+    width: 300px;
+    height: 43px;
+    background-color: #79b519;
+    border: 1px solid #BBB;
+    color: #EEE;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.choose-bar .form select {
+    position: absolute;
+    top: 12%;
+    right: 14%;
+    z-index: 1
+}
+
+.choose-bar .form button {
+    position: absolute;
+    top: 13%;
+    right: -10px;
+    padding-left: 49px;
+    width: 120px;
+}
+
+::-webkit-input-placeholder {
+    color: #EEE;
+    padding-left: 5px;
+    font-size: 16px
+}
+
+.choose-bar .form button,
+.choose-bar .form select{
+    background-color: #EEE;
+    border: 0;
+    font-size: 18px;
+    height: 42px;
+    display: inline-block;
+}
+
+/* end choose bar */
+
+/* start offer */
+ 
+.offer {
+    background-color: #475057;
+    color:#CCC;
+    padding-bottom: 40px
+}
+
+.offer h2 {
+    color:#EEE
+}
+.offer .we-offer {
+    margin:45px;
+    line-height: 1.7
+}
+
+.offer .option {
+    background-color: #59646A;
+    border: 1px solid #777;
+    margin: 0 -11px 10px;
+}
+
+.offer .option h2 {
+    font-size:22px;
+    color: #EEE
+}
+
+.offer .option h3 {
+    font-size:20px;
+    color:#EEE
+}
+
+.offer .option p {
+    margin: 30px 0;
+    padding: 0 10px;
+    line-height: 1.7;
+}
+
+.offer .option button {
+    padding: 7px 30px;
+    background-color: #79b519;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #EEE;
+    margin-bottom: 20px;
+}
+
+
+/* end offer */
+
+/* start hot */
+
+.hot {
+    background-color: #252D30;
+    overflow: auto;
+    color:#EEE
+}
+
+.hot p{
+    color:#ccc
+}
+
+.hot > img{
+    float: left;
+    height: 525px;
+    padding: 0
+}
+
+.hot .whats-hot {
+    float: right;
+    padding: 0 70px;
+}
+
+.hot .whats-hot .hot-header {
+    margin: 60px 0;
+    line-height: 1.8;
+    padding-right: 55px;
+}
+
+.hot .whats-hot button {
+    background-color: transparent;
+    padding: 8px 20px;
+    border: 1px solid #888;
+    color: #EEE;
+    margin: 20px 8px;  
+}
+
+.hot .hot-details{
+    overflow: auto;
+    position:relative
+}
+
+.hot .hot-details img {
+    float: left;
+    width: 37%;
+}
+
+.hot .hot-details .hot-info {
+    float: right;
+    width: 50%;
+    margin: 25px 30px 0 46px;
+    padding-right: 30px;
+}
+
+.hot .hot-details .free {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    background-color: #79b519;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px 13px;
+}
+
+.hot .hot-details .hot-info h4 {
+    margin: 0
+}
+
+.hot .hot-details .hot-info h2 {
+    margin: 0 0 20px
+}
+
+
+.hot .hot-details .hot-info p i {
+    padding-right: 10px
+}
+/*end hot */
+
+/* start our palns */
+
+.our-plans {
+    background-color: #475057;
+}
+
+.our-plans .container > h2 {
+    color:#EEE;
+    margin:50px 0 10px
+}
+
+.our-plans .container > p {
+    color:#ccc;
+    line-height: 1.8;
+    margin-bottom: 60px
+}
+
+.our-plans .plans {
+    margin: 0 -13px 30px;
+    background-color: #59646A;
+}
+
+.our-plans .plans:hover{
+    background-color: #79b519;
+    transform: scale(1 , 1.1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.our-plans .plans:hover h3,
+.our-plans .plans:hover p,
+.our-plans .plans:hover span{
+    color:#FFF
+}
+
+.our-plans .plans:hover h3 {
+    border-bottom: 1px solid #666
+}
+
+.our-plans .plans:hover button {
+    background-color: #EEE;
+    color:#666;
+    border:1px solid #666;
+    margin-top: 20px;
+}
+
+.our-plans .plans h3 {
+    margin-bottom: 3px;
+    color: #EEE;
+    padding: 30px 0 20px;
+    border-bottom: 4px solid #475057
+}
+
+.our-plans .plans h3:hover,
+.our-plans .plans p:hover {
+    color:#FFF
+}
+
+.our-plans .plans p {
+    border-bottom: 1px solid #777;
+    color:#ccc;
+    padding:10px 0 12px;
+}
+
+.our-plans .plans p:nth-child(6) {
+    border: 0
+}
+
+.our-plans .plans button,
+.our-plans .plans button:hover{
+    background-color: #2B3336;
+    color:#EEE;
+    padding:6px 20px;
+    margin:20px;
+    border: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+/* start our palns */
+
+/* start top services */
+
+.top-services {
+    background-color: #475057;
+    color:#fff;
+}
+
+.top-services .prop > h3 {
+    margin:30px 0
+}
+
+.top-services .services {
+    overflow: hidden
+}
+
+.top-services .services h3 {
+    margin: 0;
+    color:#fff
+}
+
+.top-services .services p {
+    color:#bbb
+}
+
+.top-services .services i{
+    font-size: 30px;
+    float: left;
+    margin: 1% 2% 7% 0;
+    border: 1px solid #666;
+    padding: 15px;
+    color: #EEE
+}
+
+.top-services .services i:hover {
+    background-color: #79b519
+}
+
+.top-services .choose-us ul {
+    padding: 0;
+    background-color: #313A41;
+    margin-bottom: 5px
+}
+
+.top-services .choose-us ul li:first-child{
+    padding-left: 10px
+}
+
+.top-services .choose-us ul li {
+    list-style: none;
+    display: inline-block;
+    padding:15px 15px 15px 20px;
+    text-align: center
+}
+
+.top-services .choose-us ul li a {
+    color: #EEE;
+    cursor: pointer
+}
+
+.top-services .choose-us ul li:hover
+{
+    background-color: #79b519;
+    color:#FFF
+}
+
+.top-services .choose-us ul li:hover a {
+    color:#FFF
+}
+
+.top-services .choose-us .details{
+    background-color: #59646A;
+}
+
+.top-services .choose-us .details {
+    display: none;
+    overflow: hidden
+}
+
+.top-services .choose-us #ui-1 {
+    display: inline-block
+}
+
+
+.top-services .choose-us .details h3 {
+    margin:30px 0 15px 25px
+}
+
+.top-services .choose-us .details img {
+    float:right;
+    width: 40%;
+    margin-right: 20px;
+    padding-bottom: 40px
+}
+
+.top-services .choose-us .details p{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    margin-left: 25px;
+}
+
+/* end top services */
+
+/* start slider */
+
+.clients {
+    background-image: url(../images/webdevelopment1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clients .say {
+    margin: 40px 
+}
+
+.clients img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.clients .say {
+    display: none
+}
+
+.clients .active{
+    display: block
+}
+
+/* end slider */
+
+/* start our features */
+
+.features {
+    background-color: #475057
+}
+
+.features div img {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.features .our-features h3 {
+    margin:50px 0 20px;
+    color:#EEE
+}
+
+.features .our-features > p:nth-child(3) {
+    padding: 10px 0 20px
+}
+
+.features .our-features p {
+    color: #CCC
+}
+
+.features .our-features .details i {
+    padding-right: 10px
+}
+
+.features .our-features button {
+    padding: 7px 30px;
+    margin-top: 20px;
+    background-color: #79b519;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #EEE;
+    margin-bottom: 20px;
+}
+
+/*end our features */
+
+/* start our timeline */
+
+.timeline {
+    background-color: #475057
+}
+
+.timeline .our-timeline img {
+    width:90%;
+    margin-top: 30px
+}
+
+.timeline .our-timeline span {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    background-color: #79b519;
+    padding: 10px 25px;
+    color: #FFF;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    border-collapse: separate
+}
+
+.timeline .our-timeline h3 {
+    color:#EEE;
+    margin: 20px 0 30px;
+}
+
+.timeline .our-timeline p {
+    color:#aaa;
+    margin-bottom:30px
+}
+
+/* end our timeline */
+
+/* start frame work */
+
+* {
+    box-sizing: border-box
+}
+
+.upper {
+    text-transform: uppercase
+}
+
+.center {
+    text-align: center
+}
+
+.overlay {
+    background-color: rgba(121, 181, 25, .8);
+    width: 100%;
+    height: 100%;
+}
+
+.select {
+    background-color: #79b519;
+    color: #FFF
+}
+
+/* end frame work */
